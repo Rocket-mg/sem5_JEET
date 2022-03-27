@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Lab2-Derby</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style/css/components.css">
+        <link rel="stylesheet" href="Style/css/icons.css">
+        <link rel="stylesheet" href="Style/css/responsee.css">
+    </head>
+    <body>
+        <p>Lista obrazów</p>
+        <form class="customform" action="./Wypisywanie">
+            Podaj nazwę instytucji
+            <input type="text" name="instytucja">
+            <div class="s-12 m-5 l-2 left">
+                <button type="submit">
+                    Wypisz obrazy</button>
+            </div>
+            <div class="box">
+        <p>Nowy obraz:</p>
+        <form class="customform" action="./Dodaj">            
+            ID<input type="text" name="image_id">
+            Nazwa<input type="text" name="name">
+            Autor<input type="text" name="author">
+            Typ<input type="text" name="type">
+            Forma<input type="text" name="form">
+            cena USD<input type="text" name="USD_price">
+            W muzeum<input type="checkbox" name="museum_property">
+        </form>
+        </div>
+        </form>
+    </body>
+</html>

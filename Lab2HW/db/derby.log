@@ -1,0 +1,2 @@
+Sun Jan 09 17:37:18 CET 2022 : Could not listen on port 1527 on host localhost:
+ java.net.BindException: Adres jest już w użyciu (Bind failed)
