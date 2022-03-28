@@ -1,0 +1,11 @@
+insert into app.SCULPTURES values (2, 'Bust of Nefertiti', 'Thutmose', 'portrait', 'limestone', 999.20, true);
+INSERT INTO APP.SCULPTURES VALUES (1, 'The Terracotta Army', 'Unknown', 'Statue', 'terracotta', 800.30, true);
+INSERT INTO APP.SCULPTURES VALUES (3, 'David', 'Michelangelo', 'sculpture', 'Marble', 542.50, true);
+INSERT INTO APP.SCULPTURES VALUES (4, 'Ecstasy of Teresa', 'Gian Lorenzo Bernini', 'sculpture', 'Marble', 800.50, false);
+INSERT INTO APP.SCULPTURES VALUES (5, 'Burghers of Calais', 'Auguste Rodin', 'people', 'bronze', 123.99, false);
+INSERT INTO APP.SCULPTURES VALUES (6, 'Guitar', 'Pablo Picasso', 'still life', 'cardboard', 400.99, true);
+INSERT INTO APP.SCULPTURES VALUES (7, 'Calders Circus', 'Alexander Calder', 'installation', 'mixed', 100.67, true);
+INSERT INTO APP.SCULPTURES VALUES (8, 'Air', 'Aristide Maillol', 'sculpture', 'bronze', 567.67, false);
+INSERT INTO APP.SCULPTURES VALUES (9, 'Spiral Jetty', 'Robert Smithson', 'sculpture', 'Basalt', 785.25, false);
+INSERT INTO APP.SCULPTURES VALUES (10, 'Spider', 'Louise Bourgeois', 'sculpture', 'Bronze', 398.88, false);
+INSERT INTO APP.SCULPTURES VALUES (11, 'Cloud Gate', 'Anish Kapoor', 'skyline', 'Steel', 999.88, false); 
