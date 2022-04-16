@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Lab2-Derby</title>
+        <!--<meta http-equiv="Cache-control" content="no-cache">    -->    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style/css/components.css">
+        <link rel="stylesheet" href="Style/css/icons.css">
+        <link rel="stylesheet" href="Style/css/responsee.css">
+    </head>
+    <body>
+        <div class="box">
+        <p>Lista pracowników</p>
+        <form class="customform" action="./Wypisywanie">            
+            Podaj nazwę instytucji
+            <input type="text" name="instytucja">
+            <div class="box">
+                    <input type="checkbox" name="issorted" value="true">
+                    Sortuj wg imienia
+                </div>
+            <div class="s-12 m-5 l-2 left">
+                <button type="submit">Wypisz pracowników</button>
+            </div><br><br><br><br>
+             
+        </form>
+        <form class="customform" action="./Dodaj">  
+            <p>Dodaj pracownika</p>
+            Imie
+            <input type="text" name="imie">
+            Nazwisko
+            <input type="text" name="nazwisko">
+            <div class="s-12 m-5 l-2 left">
+                <button type="submit">Dodaj pracownika</button>
+            </div>       
+        </form><br><br><br><br>    
+        <form class="customform" action="./Usun">  
+            <p>Usun pracownika</p>
+            ID pracownika<br>
+            <input type="text" name="IDp" style="width: 60px"><br> 
+            <div class="s-12 m-5 l-2 left">
+                <button type="submit" >Usun pracownika o wpisanym ID</button>
+            </div>         
+        </form><br><br> <br><br> 
+        <form class="customform" action="./Edytuj">  
+            <p>Edytuj pracownika</p>
+            ID pracownika
+            <input type="text" name="IDpE" style="width: 60px">
+            Imie
+            <input type="text" name="imieE" style="width: 160px">
+            Nazwisko
+            <input type="text" name="nazwiskoE" style="width: 160px">
+            <br> 
+            <div class="s-12 m-5 l-2 left">
+                <button type="submit" >Edytu pracownika</button>
+            </div>         
+        </form>
+        </div>
+       
+    </body>
+</html>
+            
