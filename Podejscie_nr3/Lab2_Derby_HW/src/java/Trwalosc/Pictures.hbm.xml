@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2022-04-17 23:12:58 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Trwalosc.Pictures" table="PICTURES" schema="APP" optimistic-lock="version">
+        <id name="imageId" type="int">
+            <column name="IMAGE_ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="string">
+            <column name="NAME" length="20" />
+        </property>
+        <property name="author" type="string">
+            <column name="AUTHOR" length="30" />
+        </property>
+        <property name="type" type="string">
+            <column name="TYPE" length="15" />
+        </property>
+        <property name="form" type="string">
+            <column name="FORM" length="10" />
+        </property>
+        <property name="usdPrice" type="java.lang.Integer">
+            <column name="USD_PRICE" />
+        </property>
+        <property name="museumProperty" type="java.lang.Boolean">
+            <column name="MUSEUM_PROPERTY" />
+        </property>
+    </class>
+</hibernate-mapping>

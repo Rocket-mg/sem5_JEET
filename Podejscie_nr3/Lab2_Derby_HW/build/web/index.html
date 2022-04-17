@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Lab2-Derby-HW</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style/css/components.css">
+        <link rel="stylesheet" href="Style/css/icons.css">
+        <link rel="stylesheet" href="Style/css/responsee.css">
+    </head>
+    <body>
+        <div class="box">
+        <form class="customform" action="./Wypisywanie">  
+            <p>Lista obrazów</p>
+            <div class="box">
+                    <input type="checkbox" name="issorted" value="true">
+                    Sortuj po nazwie obrazu<br>
+            <div class="s-12 m-5 l-2 left">
+                <button type="submit">Wypisz obrazy</button>
+            </div></div>
+        </form>
+        </form><div class="box">   
+        <form class="customform" action="./Nowy">  
+            New picture<br>
+            Name
+            <input type="text" name="nameA" style="width: 120px">
+            Author
+            <input type="text" name="authorA" style="width: 120px">
+            Type
+            <input type="text" name="typeA" style="width: 120px">
+            form
+            <input type="text" name="formA" style="width: 120px">
+            USD_price
+            <input type="text" name="USD_priceA" style="width: 70px">
+            Museum property
+            <input type="checkbox" name="M_propertyA" value="true"><br>
+            <div class="s-12 m-5 l-2 left">
+                <button type="submit">Dodaj obraz</button>
+            </div>
+        </form></div>
+        <div class="box"> 
+        <form class="customform" action="./Usunv2">  
+            <p>Delete picture</p>
+            ID obrazu
+            <input type="text" name="IDp" style="width: 60px"><br> 
+            <div class="s-12 m-5 l-2 left">
+                <button type="submit" >Usun obraz o wpisanym ID</button>
+            </div>         
+        </form><br></div><div class="box"> 
+        <form class="customform" action="./Edytujv2">  
+            <p>Update picture</p>
+            ID
+            <input type="text" name="IDpE" style="width: 60px">
+            Name
+            <input type="text" name="nameE" style="width: 120px">
+            Author
+            <input type="text" name="authorE" style="width: 120px">
+            Type
+            <input type="text" name="typeE" style="width: 120px">
+            form
+            <input type="text" name="formE" style="width: 120px">
+            USD_price
+            <input type="text" name="USD_priceE" style="width: 70px">
+            Museum property
+            <input type="checkbox" name="MP_propertyE" value="true"><br>
+            <br> 
+            <div class="s-12 m-5 l-2 left">
+                <button type="submit" >Edytu pracownika</button>
+            </div>         
+        </form></div>
+
+    </body>
+</html>
+
