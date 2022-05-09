@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2022-05-08 13:01:27 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Hibernate.Hashedstrings" table="HASHEDSTRINGS" schema="STUDENT" optimistic-lock="version">
+        <id name="idH" type="int">
+            <column name="ID_H" />
+            <generator class="assigned" />
+        </id>
+        <property name="hashedstring" type="string">
+            <column name="HASHEDSTRING" length="100" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

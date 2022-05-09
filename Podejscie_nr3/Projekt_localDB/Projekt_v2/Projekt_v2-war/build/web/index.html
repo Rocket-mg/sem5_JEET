@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Projekt_MG</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="box">
+        <form class="customform" action="./HashString">  
+            Podaj ciąg do haszowania:<br>
+            <input type="text" name="StringToHash" style="width: 320px"><br>
+            <div class="box">
+                    <input type="checkbox" name="savetodb" value="true">
+                    Czy dodać wpis do bazy?<br>
+            <div class="s-12 m-5 l-2 left">
+                <button type="submit">Dodaj wpis</button>
+            </div></div>
+        </form>
+        </div><br><br>
+        <div class="box">
+            <form class="customform" action="./DeleteRecord">
+                Podaj ID rekordu do usuniecia:<br>
+            <input type="text" name="IDD" style="width: 60px"><br>
+            <div class="s-12 m-5 l-2 left">
+                <button type="submit">Usun wpis</button>
+            </div>
+        </form>
+        </div><br><br>
+        <div class="box">
+            <form class="customform" action="./Wypisywanie">
+            <div class="s-12 m-5 l-2 left">
+                <button type="submit">Pokaż tabelę rekordów</button>
+            </div>
+        </form>
+        </div>
+    </body>
+</html>
